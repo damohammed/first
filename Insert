@@ -1,0 +1,18 @@
+INSERT INTO Passenger VALUES(022, 'Samuel Johnson', 'M', 'Moscow');
+INSERT INTO Passenger VALUES(027, 'Jack Alyson', 'M', 'Tashkent');
+INSERT INTO Passenger VALUES(037, 'Susan Kim', 'F', 'Astana');
+
+
+INSERT INTO Agency VALUES(512,  'Sky High Travel', 'Chatsworth');
+INSERT INTO Agency VALUES(017,  'Miami Air & Sea Travel Agency', 'Miami');
+INSERT INTO Agency VALUES(128,  'G Adventures', 'Toronto');
+
+
+INSERT INTO Flight VALUES(012, '2021-02-15', '18:30:00',  'Moscow, Russia', 'Frankfurt, Germany');
+INSERT INTO Flight VALUES(113, '2021-03-05', '20:00:00',  'Tashkent, Uzbekistan', 'New Delhi, India');
+INSERT INTO Flight VALUES(007, '2021-01-22', '18:30:00',  'Astana, Kazakhstan', 'London, UK');
+
+
+INSERT INTO Booking VALUES(022, 512, 012, '2021-02-15');
+INSERT INTO Booking VALUES(027, 017, 113, '2021-03-05');
+INSERT INTO Booking VALUES(037, 128, 007, '2021-01-22');
