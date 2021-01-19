@@ -1,1 +1,26 @@
-11
+Create table Passenger(
+ID INT PRIMARY KEY,
+Name VARCHAR(40),
+Gender VARCHAR(1),
+City VARCHAR(30));
+
+Create table Agency(
+ID INT PRIMARY KEY,
+Name VARCHAR(40),
+City VARCHAR(30));
+
+Create table Flight(
+ID INT PRIMARY KEY,
+Date DATE,
+Time TIME(5),
+Src VARCHAR(30),     
+dest VARCHAR(30);    
+
+Create table Booking(
+P_ID INT, 
+A_ID INT,
+F_ID INT,
+Date DATE,
+PRIMARY KEY (P_ID, A_ID, F_ID),
+FOREIGN KEY (Pas_ID) REFERENCES Passenger(Pas_ID)ON DELETE CASCADE,
+FOREIGN KEY (Ag_ID) REFERENCES Agency(Ag_ID)ON DELETE CASCADE);
