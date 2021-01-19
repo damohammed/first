@@ -1,0 +1,8 @@
+Select * from flight;
+
+Select P_ID from Booking
+WHERE Date = '2021-03-05';
+
+SELECT Agency.ID, Flight.src, Flight.dest
+FROM Agency
+JOIN Flight;
