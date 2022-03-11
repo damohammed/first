@@ -4,7 +4,7 @@ INSERT INTO Passenger VALUES(037, 'Susan Kim', 'F', 'Astana');
 
 
 INSERT INTO Agency VALUES(512,  'Sky High Travel', 'Chatsworth');
-INSERT INTO Agency VALUES(017,  'Miami Air & Sea Travel Agency', 'Miami');
+INSERT INTO Agency VALUES(017,  'Miami air & Sea Travel Agency', 'Miami');
 INSERT INTO Agency VALUES(128,  'G Adventures', 'Toronto');
 
 
